@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    
+    <link rel="stylesheet" href="static\style.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    </head>
+
+
+<body style="background-image: url(static/body\ focus\ image/back.webp); background-size: cover;">
+    <header class="header" style="background-color: black;">
+
+        <a href="#" class="logo">Smart<span> fitnezz</span> </a>
+
+        <nav class="navbar" >
+            <a href="index.html">Home</a>
+            <a href="index.html#bottom">About</a>
+            <a href="index.html#blogs">Blogs</a>
+            <a href="index.html#bottom">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="signup.html" class="btn">Sign Up</a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+    <div class="signup">
+    <h1 class="signuphead">Login</h1>
+    <form method="post" action="javascript:void(0);" id="loginform" style="background-color: aliceblue; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px ;">
+        
+        <div class="ligrow">
+        
+        <div class="lilabel"><label for="Name">Username or Email:</label></div>
+        <div class="liin"><input type="text" id="name" placeholder="Enter your name"  name="username" required><br></div></div>
+        
+        <div class="ligrow">
+        
+            <div class="lilabel"><label for="Name">Password:</label></div>
+            <div class="liin"><input type="password" id="password" placeholder="Enter the password"  name="password" required><br></div></div>
+        <div class="lobtn">
+            <input type="submit"   value="Let's Go!">
+            
+        </div>
+        <div id="message" style="color: red;"></div>
+        <p style="color: antiquewhite; font-family: 'Times New Roman', Times, serif;"><center>Already have an account? <a style="color: red;" href="signup.html">Sign Up</a></center></p></div>
+        </form>
+        <script src="static\login.js"></script>
+</body>
+</html>

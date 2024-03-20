@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalize</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+<body style="background-image: url(static/pink4.jpg); background-size:auto;">
+
+    <div class="typewriter"><p id="text"></p></div>
+
+    <div id="perage" class="perbox hidden">
+        <p>Enter Your Age</p>
+        <input id="age" type="text" placeholder="Your Age" autocomplete="off">
+        <p id="permessage1"></p>
+        <div class="perboxbtn"><button onclick="getage()">Next</button></div>
+    </div>
+    <div id="perweight"class="perbox hidden">
+        <p>Enter Your weight</p>
+        <input id="weight" type="text" placeholder="Your Weight" autocomplete="off">
+        <p id="permessage2"></p>
+        <div class="perboxbtn"> <button  onclick="getweight()">Next</button></div>
+    </div>
+    <div id="perheight" class="perbox hidden">
+        <p>Enter Your Height</p>
+        <input id="height" type="text" placeholder="Your Height" autocomplete="off">
+        <p id="permessage3"></p>
+        <div class="perboxbtn"> <button onclick="getheight()">Next</button></div>
+    </div>
+    <div id="pergoal" class="perbox hidden">
+        <p>What are your Fitness Goal/Goals</p>
+        
+            <form class="cuscheck">
+                <label>
+                    <input  type="checkbox" name="fitnessGoal" value="buildMuscle">
+                    Build Muscle
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="fitnessGoal" value="loseWeight">
+                    Lose Weight
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="fitnessGoal" value="increaseEndurance">
+                    Increase Endurance
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="fitnessGoal" value="improveFlexibility">
+                    Improve Flexibility
+                </label>
+            </form>
+            <p id="permessage4"></p>
+            <div class="perboxbtn">  <button onclick="getgoal()">Next</button></div>
+        </div>
+    <div id="perfrequency" class="perbox hidden">
+        <p>How frequent do you want to workout</p>
+        
+            <form class="cuscheck">
+                <label>
+                    <input type="checkbox" name="frequency" value="Monday">
+                    Monday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Tuesday">
+                    Tuesday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Wednesday">
+                    Wednesday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Thursday">
+                    Thursday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Friday">
+                    Friday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Saturday">
+                    Saturday
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="frequency" value="Sunday">
+                    Sunday
+                </label>
+            </form>
+            <p id="permessage5"></p>
+            <div class="perboxbtn"> <button onclick="getfrequency()">Done</button></div>
+        </div>
+    <script src="static\personalize.js"></script>
+</body>
+</html>
