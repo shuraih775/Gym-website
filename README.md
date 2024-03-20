@@ -8,7 +8,7 @@ Here are some screenshots of our website:
 
 ### Screenshot 1
 
-![Screenshot 1](screenshots/Screenshot\ (1).png)
+![Screenshot 1]("screenshots/Screenshot (1).png")
 
 ### Screenshot 2
 
